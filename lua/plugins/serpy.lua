@@ -1,3 +1,7 @@
 return {
-    "TynK-M/nvim-serpy",
+	"TynK-M/nvim-serpy",
+
+	config = function()
+		require("serpy").setup()
+	end,
 }
