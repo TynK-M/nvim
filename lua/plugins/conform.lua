@@ -18,6 +18,7 @@ return {
 			lua = { "stylua" },
 			python = { "black" },
 			rust = { "rustfmt" },
+			markdown = { "mdformat" },
 		},
 	},
 }
