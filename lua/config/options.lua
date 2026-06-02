@@ -45,3 +45,11 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 5
+
+-- Treat h files as C
+vim.filetype.add({
+	extension = {
+		h = "c",
+	},
+})
+

@@ -15,6 +15,7 @@ return {
 		end,
 
 		formatters_by_ft = {
+			c = { "clang_format" },
 			lua = { "stylua" },
 			python = { "black" },
 			rust = { "rustfmt" },
