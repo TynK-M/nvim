@@ -2,7 +2,8 @@ return {
 	"williamboman/mason-lspconfig.nvim",
 
 	dependencies = {
-		"williamboman/mason.nvim",
+		"mason-org/mason.nvim",
+		"neovim/nvim-lspconfig",
 	},
 
 	config = function()
@@ -12,6 +13,7 @@ return {
 				"pyright",
 				"rust_analyzer",
 				"clangd",
+				"zls",
 			},
 		})
 	end,
