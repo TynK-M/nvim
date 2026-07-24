@@ -53,6 +53,10 @@ vim.filetype.add({
 	},
 })
 
+-- Required by some themes
+vim.opt.termguicolors = true
+
+-- Add inline diagnostic text
 vim.diagnostic.config({
 	virtual_text = true,
 })
