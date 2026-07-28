@@ -11,11 +11,11 @@ return {
 				enabled = true,
 
 				pyrun_current = "<leader>pc",
-				pyrun_current_with_flags = "<leader>pf",
-				pydoc = "<leader>pd",
-				pydoc_current_word = "<leader>pw",
+				-- pyrun_current_with_flags = "<leader>pf",
+				-- pydoc = "<leader>pd",
+				-- pydoc_current_word = "<leader>pw",
 
-				luarun_current = "<leader>lc",
+				-- luarun_current = "<leader>lc",
 			},
 		})
 	end,
