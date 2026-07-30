@@ -16,6 +16,8 @@ return {
 				-- pydoc_current_word = "<leader>pw",
 
 				-- luarun_current = "<leader>lc",
+
+				zigbuildrun = "<leader>zbr",
 			},
 		})
 	end,
