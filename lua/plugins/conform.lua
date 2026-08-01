@@ -20,6 +20,7 @@ return {
 			python = { "black" },
 			rust = { "rustfmt" },
 			markdown = { "mdformat" },
+			sh = { "shfmt" },
 		},
 	},
 }
