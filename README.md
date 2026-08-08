@@ -13,9 +13,6 @@
 | Mode | Keymap | Action | Plugin / Module | Notes |
 |------|--------------|--------------------------|----------------|-------|
 | n | `<leader>pc` | Run current Python file | serpy | Opens terminal split and runs current buffer |
-| n | `<leader>pf` | Run current Python file with flags | serpy | Ask for additional flags and then opens terminal split and runs current buffer |
-| n | `<leader>ph` | Search a term in pydoc | serpy | Ask for a term and search it in pydoc |
-| n | `<leader>pw` | Search current word in pydoc | serpy | Retrieve under cursors word and search it in pydoc |
 
 ## Plugins
 
@@ -42,4 +39,5 @@
 - toggleterm.nvim (terminal management with floating and split terminals)
 - trouble.nvim (diagnostics, LSP references, quickfix, and location list viewer)
 - undotree (visual undo history browser)
+- VimTeX (LaTeX editing, compilation, and PFD viewing integration)
 - which-key.nvim (keymap hints popup and shortcut discovery)
