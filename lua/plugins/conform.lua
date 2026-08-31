@@ -22,6 +22,7 @@ return {
 			markdown = { "mdformat" },
 			sh = { "shfmt" },
 			tex = { "latexindent" },
+			ml = { "ocamlformat" },
 		},
 	},
 }
