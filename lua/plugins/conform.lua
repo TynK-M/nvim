@@ -23,6 +23,9 @@ return {
 			sh = { "shfmt" },
 			tex = { "latexindent" },
 			ml = { "ocamlformat" },
+			json = { "prettier" },
+			jsonc = { "prettier" },
+			js = { "prettier" },
 		},
 	},
 }
