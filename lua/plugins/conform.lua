@@ -26,6 +26,8 @@ return {
 			json = { "prettier" },
 			jsonc = { "prettier" },
 			js = { "prettier" },
+			html = { "prettier" },
+			css = { "prettier" },
 		},
 	},
 }
