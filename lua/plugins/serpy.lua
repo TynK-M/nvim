@@ -16,6 +16,7 @@ return {
 				-- pydoc_current_word = "<leader>pw",
 
 				-- luarun_current = "<leader>lc",
+				-- luadoc_current_word = "<leader>lw",
 
 				zigbuildrun = "<leader>zbr",
 			},
